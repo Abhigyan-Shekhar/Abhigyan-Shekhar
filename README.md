@@ -66,12 +66,12 @@ That combination matters to me because it reflects the kind of work I want to ke
 
 ## Featured Projects
 
-### [IntelliDoc](https://github.com/Abhigyan-Shekhar/Intellidoc)
-AI-powered document intelligence platform with React, FastAPI, Supabase, Pinecone, and Gemini.
+### [public-static-void-main](https://github.com/Abhigyan-Shekhar/public-static-void-main)
+BorderBridge, a humanitarian technology platform for refugee identity verification and case management.
 
-- PDF upload + chat over documents
-- RAG pipeline with vector retrieval
-- authentication and per-user document isolation
+- refugee case workflows for authorities and self-service users
+- explainable identity confidence scoring with evidence tracking
+- React, TypeScript, FastAPI, Supabase, and custom graph visualisation
 
 ### [OCR QA Segmentation](https://github.com/Abhigyan-Shekhar/ocr-qa-segmentation)
 Document understanding pipeline for handwritten exam digitization using classical ML.
@@ -80,12 +80,12 @@ Document understanding pipeline for handwritten exam digitization using classica
 - OCR + preprocessing pipeline
 - practical ML without depending on LLMs
 
-### [Axon.MCP.Server](https://github.com/Abhigyan-Shekhar/Axon.MCP.Server)
-MCP server work centered on making codebases more legible to AI-assisted development workflows.
+### [W-beautiful-dark-circles](https://github.com/ard12/W-beautiful-dark-circles)
+SENTINEL, a hackathon-built mission intelligence console created with a team.
 
-- semantic code understanding
-- developer tooling for AI IDEs
-- architecture-aware search and analysis
+- fused operations view with deterministic scoring and AI reasoning
+- React, Vite, Tailwind, FastAPI, and Claude-backed structured analysis
+- scenario progression, recommendation paths, and executive briefing flows
 
 ### [water_reminder_bot](https://github.com/Abhigyan-Shekhar/water_reminder_bot)
 A smaller but useful product-minded automation project.
