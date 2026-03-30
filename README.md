@@ -52,25 +52,6 @@ Infra       GitHub, Docker, Kubernetes, Minikube
 - merged PRs in `kubernetes/minikube`
 - projects across AI, full-stack apps, tooling, and coursework
 
-## Desert Drift
-
-<div align="center">
-  <a href="https://my.spline.design/untitled-k1KQe1bIq5W7lZvLark2ZzGe/">
-    <img src="./assets/desert-drift-preview.png" alt="Desert Drift Spline preview" width="100%" />
-  </a>
-</div>
-
-<div align="center">
-  <sub>An immersive Spline scene adapted for GitHub as a linked visual showcase.</sub>
-</div>
-
-<p align="center">
-  <a href="https://my.spline.design/untitled-k1KQe1bIq5W7lZvLark2ZzGe/"><img src="https://img.shields.io/badge/Launch-Desert%20Drift-111827?style=for-the-badge" alt="Launch Desert Drift" /></a>
-  <img src="https://img.shields.io/badge/Format-GitHub%20Safe-0f766e?style=for-the-badge" alt="GitHub Safe" />
-</p>
-
-Dark, framed, and immersive was the original component intent. GitHub cannot run the iframe, so the README version uses a captured preview that links straight to the live interactive scene.
-
 ## Open Source
 
 Real merged work in the Kubernetes ecosystem:
