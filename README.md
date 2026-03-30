@@ -87,12 +87,12 @@ SENTINEL, a hackathon-built mission intelligence console created with a team.
 - React, Vite, Tailwind, FastAPI, and Claude-backed structured analysis
 - scenario progression, recommendation paths, and executive briefing flows
 
-### [water_reminder_bot](https://github.com/Abhigyan-Shekhar/water_reminder_bot)
-A smaller but useful product-minded automation project.
+### [JeevBandhu-for-hakcathon-](https://github.com/Abhigyan-Shekhar/JeevBandhu-for-hakcathon-)
+Livestock health management platform focused on traceability and bio-safe marketplace transactions.
 
-- reminder logic
-- simple automation UX
-- practical problem solving over overengineering
+- digital health passports for animals with treatment history
+- deterministic withdrawal-period enforcement before listing products
+- Node.js, Express, MongoDB, EJS, Tailwind, and chart-driven dashboards
 
 ## Profile Pulse
 
