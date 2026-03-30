@@ -97,13 +97,14 @@ Livestock health management platform focused on traceability and bio-safe market
 ## Profile Pulse
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Abhigyan-Shekhar&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhigyan-Shekhar&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
-</div>
-
-<div align="center">
   <img src="https://streak-stats.demolab.com?user=Abhigyan-Shekhar&theme=transparent&hide_border=true" alt="GitHub streak" />
 </div>
+
+```text
+Core Languages   Java, Python, JavaScript, C, Go
+Focus Areas      AI systems, full-stack apps, open source, developer tooling
+Public Work      Products, hackathon builds, coursework, Kubernetes contributions
+```
 
 ## What You’ll Find Here
 
