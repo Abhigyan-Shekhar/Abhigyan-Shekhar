@@ -1,132 +1,115 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,35:1d4ed8,70:0891b2,100:22c55e&text=Abhigyan%20Shekhar&fontColor=ffffff&fontSize=46&fontAlignY=38&desc=Building%20useful%20systems%20across%20AI,%20full-stack,%20and%20open%20source&descAlignY=58" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:1d4ed8,75:0891b2,100:22c55e&text=Abhigyan%20Shekhar&fontColor=ffffff&fontSize=48&fontAlignY=38&desc=Building%20memory%20systems%2C%20AI%20infrastructure%2C%20and%20reliable%20software&descAlignY=59" alt="Abhigyan Shekhar — AI infrastructure and open-source developer" />
 
-# Hi, I'm Abhigyan
+# Hi, I'm Abhigyan 👋
+
+**Computer Science @ BMSCE · Open-source builder · AI infrastructure & systems**
+
+I build software that remembers, reasons, and holds up outside a demo.
 
 <p>
   <a href="mailto:abhishanu07@gmail.com"><img src="https://img.shields.io/badge/Email-abhishanu07%40gmail.com-0f172a?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/abhigyan-shekhar-4b3b8b344/"><img src="https://img.shields.io/badge/LinkedIn-Abhigyan%20Shekhar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/Abhigyan-Shekhar"><img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://pypi.org/project/waggle-mcp/"><img src="https://img.shields.io/badge/PyPI-waggle--mcp-3775A9?style=for-the-badge&logo=pypi&logoColor=white" alt="waggle-mcp on PyPI" /></a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Based%20in-Bengaluru%2C%20India-14532d?style=flat-square" alt="Location" />
-  <img src="https://img.shields.io/badge/Open%20Source-Kubernetes%20Contributor-1d4ed8?style=flat-square" alt="Open Source" />
-  <img src="https://img.shields.io/badge/Focus-AI%20%2B%20Systems%20%2B%20Product-0f766e?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Bengaluru%2C%20India-14532d?style=flat-square&logo=googlemaps&logoColor=white" alt="Bengaluru, India" />
+  <img src="https://img.shields.io/badge/Kubernetes-Contributor-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes contributor" />
+  <img src="https://img.shields.io/badge/Focus-Agent%20Memory%20%26%20Developer%20Tools-0f766e?style=flat-square" alt="Agent memory and developer tools" />
 </p>
 
 </div>
 
-## About
+## What I build
 
-I like building software that is technically solid and actually usable. My work spans:
+My work sits at the intersection of **AI agents, retrieval, developer tooling, and dependable backend systems**. I am especially interested in software that preserves context over time, exposes why it made a decision, and gives people a clear way to inspect or correct it.
 
-- AI and document intelligence systems
-- full-stack product builds with modern web stacks
-- practical developer tooling
-- open-source contributions in the Kubernetes ecosystem
+Right now, that means building local-first memory infrastructure for AI agents, measuring retrieval systems instead of hand-waving about them, and contributing fixes to production open-source projects.
 
-I care about clean implementation, real-world utility, and shipping projects that do more than look good in a demo.
+## Flagship project — [Waggle](https://github.com/Abhigyan-Shekhar/Waggle-mcp)
 
-### Current Direction
+> Persistent, graph-backed memory for AI agents across sessions and tools.
 
-- Building AI-assisted developer and document workflows
-- Going deeper into distributed systems and Kubernetes internals
-- Improving product taste on the frontend without sacrificing engineering rigor
+<p>
+  <a href="https://github.com/Abhigyan-Shekhar/Waggle-mcp/stargazers"><img src="https://img.shields.io/github/stars/Abhigyan-Shekhar/Waggle-mcp?style=flat-square&color=f59e0b" alt="Waggle GitHub stars" /></a>
+  <a href="https://github.com/Abhigyan-Shekhar/Waggle-mcp/network/members"><img src="https://img.shields.io/github/forks/Abhigyan-Shekhar/Waggle-mcp?style=flat-square&color=0891b2" alt="Waggle GitHub forks" /></a>
+  <a href="https://pypi.org/project/waggle-mcp/"><img src="https://img.shields.io/pypi/v/waggle-mcp?style=flat-square&color=3775A9" alt="waggle-mcp PyPI version" /></a>
+  <a href="https://pepy.tech/projects/waggle-mcp"><img src="https://static.pepy.tech/personalized-badge/waggle-mcp?period=total&units=INTERNATIONAL_SYSTEM&left_color=grey&right_color=green&left_text=downloads" alt="waggle-mcp downloads" /></a>
+  <a href="https://github.com/Abhigyan-Shekhar/Waggle-mcp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Abhigyan-Shekhar/Waggle-mcp?style=flat-square" alt="Waggle license" /></a>
+</p>
 
-## Stack
+Waggle is a local-first external memory layer for MCP-compatible agents. It stores decisions, reasons, contradictions, and changing project state as a knowledge graph so a new session can continue from durable context instead of starting from zero.
 
-```text
-Languages   Java, Python, C, JavaScript, Go
-Frontend    React, Vite, HTML, CSS, Tailwind
-Backend     FastAPI, APIs, auth, storage, RAG flows
-AI/ML       Gemini, embeddings, OCR, CRF, RAG
-Infra       GitHub, Docker, Kubernetes, Minikube
+- graph and hybrid retrieval with temporal and supersession-aware memory
+- SQLite by default, optional Neo4j, and local embeddings with no API key required
+- MCP integrations for Codex, Claude, Cursor, Gemini CLI, Antigravity, and more
+- Graph Studio for inspecting provenance, retrieval, and memory lineage
+- portable `.abhi` graphs, cross-platform releases, a VS Code extension, and a Codex plugin
+- benchmarked on LongMemEval with reproducible evaluation artifacts
+
+```bash
+pipx install waggle-mcp
+waggle-mcp setup --yes
+waggle-mcp doctor
 ```
+
+[Repository](https://github.com/Abhigyan-Shekhar/Waggle-mcp) · [PyPI](https://pypi.org/project/waggle-mcp/) · [Live Workspace](https://waggle-webmcp.onrender.com/) · [Releases](https://github.com/Abhigyan-Shekhar/Waggle-mcp/releases)
+
+## Selected projects
+
+| Project | What it does | Built with |
+| --- | --- | --- |
+| **[Waggle SemCache](https://github.com/Abhigyan-Shekhar/waggle-semcache)** | Local-first semantic cache for LLM, RAG, and agent workloads with safe reuse gates, bounded SQLite storage, and inspectable match decisions. | Python, SQLite, MiniLM, OpenAI/LangChain/LiteLLM integrations |
+| **[Waggle Recover](https://github.com/Abhigyan-Shekhar/waggle-recover)** | Auditable revenue-recovery agent that separates retrieved context from current authority and keeps deterministic policy in control of every action. | Python, FastAPI, React, LangGraph, Razorpay Test Mode, n8n |
+| **[BorderBridge](https://github.com/Abhigyan-Shekhar/public-static-void-main)** | Humanitarian identity and case-management platform with explainable confidence scoring, evidence graphs, and self-service refugee workflows. | React, TypeScript, FastAPI, Supabase, custom graph visualization |
+| **[IncidentResponseEnv](https://github.com/Abhigyan-Shekhar/incident-response-env)** | Deterministic OpenEnv benchmark for SRE agents investigating and remediating cascading production incidents under a bounded action budget. | Python, FastAPI, Pydantic, Docker, Hugging Face Spaces |
+| **[OCR Q/A Segmentation](https://github.com/Abhigyan-Shekhar/ocr-qa-segmentation)** | End-to-end handwritten exam digitization with OCR, CRF sequence labeling, multi-page stitching, and structured Q/A extraction. | Python, TrOCR, CRF, OpenCV, Gradio |
+
+## Open-source impact
+
+I enjoy the part of open source where the bug is real, the codebase is unfamiliar, and the fix has to survive production review.
+
+| Upstream | Merged contribution |
+| --- | --- |
+| [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes/pull/135759) | Prevented a CEL composition data race by deep-copying mutable `MapType` state |
+| [`kubernetes/minikube`](https://github.com/kubernetes/minikube/pull/22451) | Fixed Podman volume mounts on macOS with `host.containers.internal` support |
+| [`kubernetes/minikube`](https://github.com/kubernetes/minikube/pull/22277) | Corrected nested-VM detection on macOS and removed unnecessary timeout inflation |
+| [`containernetworking/cni`](https://github.com/containernetworking/cni/pull/1177) | Repaired a broken specification link in the CNI documentation |
 
 ## Highlights
 
-- 33 public repositories
-- merged PRs in `kubernetes/kubernetes`
-- merged PRs in `kubernetes/minikube`
-- projects across AI, full-stack apps, tooling, and coursework
+- Founded and maintain **Waggle**, now a community project with **60+ contributors**, **900+ commits**, PyPI releases, and selection for **GirlScript Summer of Code** and **Social Summer of Code**.
+- Landed **four merged upstream contributions** across Kubernetes, Minikube, and the Container Network Interface project.
+- Won **1st place among 50 teams** at the BMSCE Mega Hackathon with BorderBridge, built in one day.
+- Presented Waggle at the **Magicball Agentic Summit 2026** to founders and engineers working on AI infrastructure.
+- Serve as an **AI mentor for the IEEE SIG at BMSCE**, teaching LangChain, RAG, agent workflows, and LangGraph.
 
-## Open Source
-
-Real merged work in the Kubernetes ecosystem:
-
-| Repository | Contribution |
-| --- | --- |
-| [`kubernetes/kubernetes`](https://github.com/kubernetes/kubernetes/pull/135759) | Fixed a CEL composition race by deep-copying `MapType` state to prevent concurrent map access crashes |
-| [`kubernetes/minikube`](https://github.com/kubernetes/minikube/pull/22451) | Fixed Podman mount behavior on macOS with `host.containers.internal` support |
-| [`kubernetes/minikube`](https://github.com/kubernetes/minikube/pull/22277) | Corrected nested VM detection on macOS and removed unnecessary timeout inflation |
-
-That combination matters to me because it reflects the kind of work I want to keep doing: debugging real systems, reading unfamiliar code quickly, and landing fixes that improve reliability.
-
-## Featured Projects
-
-### [public-static-void-main](https://github.com/Abhigyan-Shekhar/public-static-void-main)
-BorderBridge, a humanitarian technology platform for refugee identity verification and case management.
-
-- refugee case workflows for authorities and self-service users
-- explainable identity confidence scoring with evidence tracking
-- React, TypeScript, FastAPI, Supabase, and custom graph visualisation
-
-### [OCR QA Segmentation](https://github.com/Abhigyan-Shekhar/ocr-qa-segmentation)
-Document understanding pipeline for handwritten exam digitization using classical ML.
-
-- CRF-based Q/A segmentation
-- OCR + preprocessing pipeline
-- practical ML without depending on LLMs
-
-### [W-beautiful-dark-circles](https://github.com/ard12/W-beautiful-dark-circles)
-SENTINEL, a hackathon-built mission intelligence console created with a team.
-
-- fused operations view with deterministic scoring and AI reasoning
-- React, Vite, Tailwind, FastAPI, and Claude-backed structured analysis
-- scenario progression, recommendation paths, and executive briefing flows
-
-### [JeevBandhu-for-hakcathon-](https://github.com/Abhigyan-Shekhar/JeevBandhu-for-hakcathon-)
-Livestock health management platform focused on traceability and bio-safe marketplace transactions.
-
-- digital health passports for animals with treatment history
-- deterministic withdrawal-period enforcement before listing products
-- Node.js, Express, MongoDB, EJS, Tailwind, and chart-driven dashboards
-
-## Profile Pulse
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Abhigyan-Shekhar&theme=transparent&hide_border=true" alt="GitHub streak" />
-</div>
+## Toolbox
 
 ```text
-Core Languages   Java, Python, JavaScript, C, Go
-Focus Areas      AI systems, full-stack apps, open source, developer tooling
-Public Work      Products, hackathon builds, coursework, Kubernetes contributions
+Languages       Python · Go · Java · TypeScript · JavaScript · C
+AI systems      MCP · RAG · knowledge graphs · embeddings · LangGraph · OCR · CRF
+Backend         FastAPI · Node.js · REST APIs · auth · SQLite · PostgreSQL · MongoDB
+Frontend        React · Vite · Tailwind CSS · data visualization
+Infrastructure  Docker · Kubernetes · Minikube · GitHub Actions · Linux
+Engineering     testing · benchmarks · retrieval evaluation · release automation
 ```
 
-## What You’ll Find Here
+## Currently exploring
 
-- experiments in AI, OCR, RAG, and developer tools
-- full-stack builds with product polish
-- Java and DSA practice from fundamentals upward
-- open-source work connected to systems engineering
+- memory systems that preserve authority, provenance, and change over time
+- evaluation methods for long-context retrieval and agent behavior
+- distributed systems and Kubernetes internals
+- local-first AI products with transparent human control
 
-## Outside Code
+## Let's talk
 
-- football
-- movies
-- finance and economics
-- travel
+If you are working on agent memory, AI infrastructure, developer experience, or systems-oriented open source, I would love to compare notes.
 
-## Reach Out
-
-If you're working on AI tools, developer experience, or systems-oriented open source, I'm interested.
-
-- Email: [abhishanu07@gmail.com](mailto:abhishanu07@gmail.com)
-- LinkedIn: [Abhigyan Shekhar](https://www.linkedin.com/in/abhigyan-shekhar-4b3b8b344/)
+**[Email](mailto:abhishanu07@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/abhigyan-shekhar-4b3b8b344/)** · **[GitHub](https://github.com/Abhigyan-Shekhar)**
 
 <div align="center">
-  <sub>Built to reflect real work, not filler.</sub>
+  <sub>Build the system. Measure it. Make it useful.</sub>
 </div>
